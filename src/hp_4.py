@@ -27,7 +27,7 @@ def date_range(start, n):
     
     dates = []
     
-    start_date = datetime.datetime.strptime(start, '%Y-%m-%d')
+    start_date = datetime.strptime(start, '%Y-%m-%d')
     
     for i in range(n):
         
